@@ -1,4 +1,4 @@
-# dbsp-project-2
+# Database System Principles Project 2
 
 # Please refer to Report Appendix for Installation Instructions
 
@@ -6,4 +6,3 @@
 brew install python-tk
 brew install graphviz
 
-Go through the backend in December
