@@ -2,9 +2,12 @@
 ## About
 
 This is a project for SC3020 (Database System Principles) where we:
-    a) Developed a PostgreSQL-based application to analyze and visualize query execution plans and block access patterns in a TPC-H dataset
-    b) Designed and implemented an user-friendly graphical user interface using Python, Flask, and Tkinter, to display natural language explanations of input queries and graphical representations such as QEP trees and heat maps
-    c) Displayed query performance metrics such as execution time, planning time, total cost, node counts, average actual time for each node type, and shared buffer statistics
+1. Developed a PostgreSQL-based application to analyze and visualize query execution plans and block access patterns in a TPC-H dataset.
+
+2. Designed and implemented a user-friendly graphical user interface using Python, Flask, and Tkinter to display natural language explanations of input queries and graphical representations such as QEP trees and heat maps.
+
+3. Displayed query performance metrics such as execution time, planning time, total cost, node counts, average actual time for each node type, and shared buffer statistics.
+
 
 ## Conclusion
 Our software enables users to better understand what is happening “inside the box” of a database system when they pose a SQL query. It has an easy to use interface and is
