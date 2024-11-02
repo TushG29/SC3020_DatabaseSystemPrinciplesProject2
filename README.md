@@ -31,8 +31,11 @@ Please ensure that you are using Python 3.11 to run our application code. We rec
     e. Password - postgres password
 11. It is advised to close the application every time from the terminal via <Control + C> keyboard shortcut and not the window directly to ensure the flask app is terminated and the port 5000 is cleared. In the case that the port is occupied, the following commands can help you clear the 5000 port to ensure a smooth connection to the flask app.
 
-sudo lsof -i :5000 (take note of the Process ID)
+```bash
+sudo lsof -i :5000  # take note of the Process ID
 sudo kill -9 <Process ID of the python app>
+```
+
 
 These commands should help you clear the port.
 
